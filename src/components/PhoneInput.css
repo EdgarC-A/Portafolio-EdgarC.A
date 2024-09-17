@@ -1,0 +1,30 @@
+.phone-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.phone-input {
+  width: 100%;
+  max-width: 400px; /* Ajusta este valor según tus necesidades */
+}
+
+.phone-input input[type="text"] {
+  width: 100%;
+  height: 40px;
+  background-color: #f8f9fa; /* Color de fondo */
+  color: #000; /* Color del texto */
+  padding-left: 50px; /* Espacio para el código de país */
+  border: 1px solid #ced4da; /* Borde */
+  border-radius: 5px; /* Esquinas redondeadas */
+}
+
+.phone-input .flag-dropdown {
+  border: none;
+  background-color: transparent;
+}
+
+.phone-input .country-list {
+  max-height: 200px;
+  overflow-y: auto;
+}

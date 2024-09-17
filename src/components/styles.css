@@ -1,0 +1,132 @@
+body {
+  background-color: #1d1d1d;
+}
+.container-fluid {
+  background-color: #1d1d1d;
+}
+.navbar {
+  background-color: #1d1d1d !important;
+}
+.nav-link {
+  color: white;
+}
+.active {
+  color: #1e7eae !important;
+}
+.volantis {
+  margin-top: 10px;
+  padding: 20px;
+}
+.brn-editdrop {
+  background: none !important;
+}
+.navbar-toggler {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+#edgar {
+  position: relative;
+  top: 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.custom-navbar {
+  background-color: #1d1d1d !important; /* Esto fuerza a que este color tenga prioridad */
+}
+.navbar-toggler-icon {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  right: 8px;
+  border-radius: 20px;
+  background-image: url(img/barra-de-menus.png);
+}
+.navbar-toggler-icon:hover {
+  background-color: #ffffff;
+  transition: 0.9s ease-out;
+}
+#offcanvasNavbar {
+  background-color: #000000;
+  border-radius: 100px 30px;
+}
+.btn-close {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.dropdown-menu {
+  background-color: #000000;
+}
+.dropdown-item {
+  color: white;
+}
+.dropdown-item:hover {
+  background-color: #1e7eae;
+  color: white;
+}
+/* LOGIN */
+
+/* INFORMACION DE CONTACTO */
+.title {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+}
+.info {
+  display: flex;
+  min-height: auto;
+  justify-content: center;
+}
+.info-div {
+  text-align: center;
+  padding: 5px;
+  margin-top: 5px;
+}
+.a-div {
+  text-decoration: none;
+  color: white;
+}
+
+.a-div:hover {
+  color: #1e7eae;
+  transition: 0.3s linear;
+}
+.company {
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+}
+/* FONDO DEL MENU */
+.offcanvas {
+  background-color: #1d1d1d;
+}
+/* FIN */
+
+/* IMAGEN DE LOGO */
+.d-inline-block {
+  border-radius: 50px;
+}
+/* FIN */
+
+/* TITULO A LOGO */
+.logo {
+  margin-right: 12px; /* Ajusta el valor según sea necesario */
+}
+/* FIN */
+
+/* BOTON BUSCAR */
+.btn {
+  border-color: #1e7eae;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+.btn:hover {
+  background-color: #1e7eae;
+}
+/* fin */
+
+.nav-link:hover {
+  color: #1e7eae !important;
+}

@@ -1,0 +1,26 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Centrado vertical y horizontal en pantalla */
+  background-color: #1d1d1d; /* Opcional: fondo para que el loader sea más visible */
+}
+
+.logo-loader {
+  width: 100px; /* Ajusta el tamaño según tu preferencia */
+  height: 100px;
+  animation: flip 2s infinite; /* Animación infinita con duración de 2 segundos */
+  transform-style: preserve-3d;
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg); /* Rotación a la mitad del ciclo */
+  }
+  100% {
+    transform: rotateY(360deg); /* Rotación completa */
+  }
+}

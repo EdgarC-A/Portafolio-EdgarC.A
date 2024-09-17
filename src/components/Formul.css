@@ -1,0 +1,81 @@
+/* SECTION CONTACTOS */
+
+.form1 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 100px;
+  background-color: #1d1d1d;
+}
+
+.form1:hover {
+  background-color: #252525;
+  transition: 0.5s ease-in-out;
+  border-radius: 5px;
+  transform: scale(1.01);
+}
+@media (max-width: 768px) {
+  .form1 {
+    padding: 0px;
+  }
+}
+@media (max-width: 600px) {
+  form {
+    padding: 0px;
+  }
+}
+@media (max-width: 1024px) {
+  form {
+    padding: 0px;
+  }
+}
+@media (max-width: 800px) {
+  form {
+    padding: 0px;
+  }
+}
+.contactos {
+  position: relative;
+  margin-top: 350px;
+}
+.p-contact {
+  text-align: center;
+  color: white;
+}
+
+.card-form {
+  padding: 0 200px 0 200px;
+}
+
+@media (max-width: 600px) {
+  .card-form {
+    padding: 0px;
+    text-align: center;
+  }
+  input {
+    text-align: center;
+  }
+}
+
+.col {
+  margin-top: 20px;
+}
+input.form-control {
+  background-color: #1d1d1d; /* Cambia este color por el que desees */
+  color: #000000; /* Color del texto */
+}
+
+/* Cambiar el color del placeholder */
+input.form-control::placeholder {
+  color: #ffffff; /* Cambia este color por el que desees para el placeholder */
+  opacity: 1; /* Asegúrate de que el placeholder no sea transparente */
+}
+.form-group p {
+  color: white;
+  margin-top: 10px;
+  text-align: left;
+}
+.col-auto {
+  margin-top: 10px;
+}
+.btn-env {
+  padding: 0.5rem 4rem 0.5rem 4rem;
+}

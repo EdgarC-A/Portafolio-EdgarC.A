@@ -1,0 +1,324 @@
+/* NEW SECTION ACERCA DE MI */
+.new-section {
+  position: relative;
+  top: 300px;
+  background-color: #1d1d1d; /* Fondo de la nueva sección */
+  padding: 40px; /* Espaciado */
+}
+@media (max-width: 600px) {
+  .new-section {
+    text-align: center;
+  }
+}
+@media (max-width: 988px) {
+  .new-section {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .new-section {
+    text-align: center;
+  }
+}
+.section-title {
+  color: white;
+  font-size: 2.6rem; /* Tamaño del título */
+  margin-bottom: 15px; /* Espaciado debajo del título */
+}
+
+.section-text {
+  font-size: 1.125rem; /* Tamaño del texto */
+  color: white; /* Color del texto */
+}
+/* SECTION HABILITIS */
+.section-content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+@media (max-width: 600px) {
+  .section-content {
+    flex-direction: column;
+  }
+  .title-1 {
+    text-align: center !important;
+  }
+}
+.left-side,
+.right-side {
+  margin: 3rem 0rem 3rem 0rem;
+  flex: 50%;
+}
+.right-side {
+  text-align: center;
+}
+.title-1,
+.text-11 {
+  text-align: left;
+  color: white;
+}
+@media (max-width: 600px) {
+  .text-11 {
+    text-align: center;
+  }
+}
+.title-2 {
+  color: white;
+}
+.btnhabiliti-1 {
+  margin: 2rem 1rem 0rem 1rem;
+}
+
+@media (max-width: 988px) {
+  .botton-proyect {
+    text-align: center !important;
+  }
+}
+
+/* SECTION SKILL */
+.container-skill2 {
+  border-radius: 50px;
+  background-color: #e6e6e6;
+}
+.container-skill {
+  padding: 65px 0px 65px 0px;
+  display: flex;
+  flex-direction: row;
+  cursor: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22currentColor%22%20class%3D%22bi%20bi-cursor%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M14.082%202.182a.5.5%200%200%201%20.103.557L8.528%2015.467a.5.5%200%200%201-.917-.007L5.57%2010.694.803%208.652a.5.5%200%200%201-.006-.916l12.728-5.657a.5.5%200%200%201%20.556.103zM2.25%208.184l3.897%201.67a.5.5%200%200%201%20.262.263l1.67%203.897L12.743%203.52z%22/%3E%3C/svg%3E"),
+    auto;
+  text-align: center;
+}
+
+.container-skill:hover {
+  border-radius: 50px;
+  transition: 0.3s linear;
+  background-color: #d8d8d8;
+}
+@media (max-width: 600px) {
+  .container-skill {
+    flex-direction: column;
+  }
+}
+@media (max-width: 851px) {
+  .container-skill {
+    flex-direction: column;
+  }
+}
+@media (max-width: 780px) {
+  .container-skill {
+    flex-direction: column;
+  }
+}
+.skill1 {
+  color: rgb(0, 0, 0);
+  flex: 50%;
+}
+.skill1,
+p {
+  font-size: 1.125rem;
+  line-height: 27px;
+}
+.skill2 {
+  color: rgb(0, 0, 0);
+  flex: 50%;
+}
+.skill2,
+p {
+  font-size: 1.125rem;
+  line-height: 27px;
+}
+
+.skill3 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 65px 0px 65px 0px;
+  cursor: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22currentColor%22%20class%3D%22bi%20bi-cursor%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M14.082%202.182a.5.5%200%200%201%20.103.557L8.528%2015.467a.5.5%200%200%201-.917-.007L5.57%2010.694.803%208.652a.5.5%200%200%201-.006-.916l12.728-5.657a.5.5%200%200%201%20.556.103zM2.25%208.184l3.897%201.67a.5.5%200%200%201%20.262.263l1.67%203.897L12.743%203.52z%22/%3E%3C/svg%3E"),
+    auto;
+}
+.skill3,
+p {
+  font-size: 1.125rem;
+  line-height: 27px;
+}
+.skill3:hover {
+  border-radius: 50px;
+  transition: 0.3s linear;
+  background-color: #d8d8d8;
+}
+
+/* SECTION MOKUPS  */
+.header-heading {
+  padding: 60px 0 60px 0;
+}
+.heading {
+  text-align: center;
+  color: white;
+}
+.text-heading {
+  color: white;
+  text-align: center;
+}
+.container-mkp {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 600px) {
+  .container-mkp {
+    flex-direction: column;
+  }
+}
+
+.mk1 {
+  flex: 50%;
+}
+.mk1 img {
+  width: 600px;
+}
+@media (max-width: 600px) {
+  .mk1 img {
+    width: 300px;
+    height: auto;
+  }
+}
+.mk2 {
+  margin-top: 100px;
+  color: white;
+  flex: 50%;
+}
+@media (max-width: 600px) {
+  .mk2 {
+    text-align: center;
+    top: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .mk2 {
+    text-align: center;
+    top: 10px;
+  }
+}
+.text-1 {
+  text-align: center;
+}
+.btn-uso {
+  text-align: center;
+}
+
+.head2 {
+  color: white;
+  padding: 60px 0 60px 0;
+}
+@media (max-width: 1024px) {
+  .container-mkp {
+    flex-direction: column;
+  }
+}
+.btn-blue {
+  color: white;
+  background-color: #000000;
+}
+.btn-whap {
+  margin-right: 10px;
+  background-color: rgb(35, 160, 102);
+  color: white;
+}
+.div-contact {
+  margin-top: 40px;
+}
+/* ACERCA DE MI  */
+/* src/components/AboutMe.css */
+.container-aboutme {
+  padding: 3rem 0rem 3rem 0rem;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 988px) {
+  .container-aboutme {
+    flex-direction: column;
+  }
+}
+.texto-aboutme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.texto-aboutme,
+.about-me-container {
+  flex: 1;
+}
+.title-about,
+.text-about {
+  color: white;
+}
+.description {
+  margin-bottom: 20px;
+}
+
+.about-me-container {
+  position: relative;
+  text-align: center;
+}
+
+.image-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.profile-image {
+  width: 500px; /* Ajusta el tamaño según sea necesario */
+  height: 500px; /* Ajusta el tamaño según sea necesario */
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 600px) {
+  .profile-image {
+    width: 350px;
+    height: auto;
+  }
+}
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid #1e7eae;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); /* Efecto brillante */
+  animation: rotate 10s linear infinite;
+  z-index: 0;
+  pointer-events: none; /* Asegura que no interfiera con el clic */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(490deg);
+  }
+}
+
+.description {
+  margin-top: 20px;
+}
+
+.description h2 {
+  margin: 0;
+}
+/* fin */
+.pront {
+  display: flex;
+  min-height: auto;
+  justify-content: center;
+}
+.btn-pronto {
+  background-color: transparent !important;
+  border-radius: 50px;
+}
+.btn {
+  border-radius: 50px;
+}
