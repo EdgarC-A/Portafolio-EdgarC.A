@@ -1,5 +1,3 @@
-/* SECTION CONTACTOS */
-
 .form1 {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 100px;
@@ -10,28 +8,13 @@
   background-color: #252525;
   transition: 0.5s ease-in-out;
   border-radius: 5px;
-  transform: scale(1.01);
 }
-@media (max-width: 768px) {
+@media (max-width: 988px) {
   .form1 {
     padding: 0px;
   }
 }
-@media (max-width: 600px) {
-  form {
-    padding: 0px;
-  }
-}
-@media (max-width: 1024px) {
-  form {
-    padding: 0px;
-  }
-}
-@media (max-width: 800px) {
-  form {
-    padding: 0px;
-  }
-}
+
 .contactos {
   position: relative;
   margin-top: 350px;
@@ -45,7 +28,7 @@
   padding: 0 200px 0 200px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 988px) {
   .card-form {
     padding: 0px;
     text-align: center;
@@ -59,14 +42,14 @@
   margin-top: 20px;
 }
 input.form-control {
-  background-color: #1d1d1d; /* Cambia este color por el que desees */
-  color: #000000; /* Color del texto */
+  background-color: #1d1d1d;
+  color: #000000;
 }
 
 /* Cambiar el color del placeholder */
 input.form-control::placeholder {
-  color: #ffffff; /* Cambia este color por el que desees para el placeholder */
-  opacity: 1; /* Asegúrate de que el placeholder no sea transparente */
+  color: #ffffff;
+  opacity: 1;
 }
 .form-group p {
   color: white;

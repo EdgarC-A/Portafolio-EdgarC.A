@@ -2,14 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Centrado vertical y horizontal en pantalla */
-  background-color: #1d1d1d; /* Opcional: fondo para que el loader sea más visible */
+  height: 100vh;
+  background-color: #1d1d1d;
 }
 
 .logo-loader {
-  width: 100px; /* Ajusta el tamaño según tu preferencia */
+  width: 100px;
   height: 100px;
-  animation: flip 2s infinite; /* Animación infinita con duración de 2 segundos */
+  animation: flip 2s infinite;
   transform-style: preserve-3d;
 }
 

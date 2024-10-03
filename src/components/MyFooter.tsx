@@ -5,21 +5,21 @@ import Separador from "./Separador";
 
 const MyFooter: React.FC = () => {
   return (
-    <div className="container-footer">
+    <div className="overflow-x-hidden container-footer">
       <div className="foot1">
         <a className="a1" href="#">
           Inicio
         </a>
         /
-        <a className="a1" href="#redirection1">
+        <a className="a1" href="#Aboutme">
           Acerca de
         </a>
         /
-        <a className="a1" href="#redirection2">
+        <a className="a1" href="#Developed-Projects">
           Proyectos
         </a>
         /
-        <a className="a1" href="#redirection-form">
+        <a className="a1" href="#Contact">
           Contactos
         </a>
       </div>

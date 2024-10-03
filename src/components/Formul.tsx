@@ -3,7 +3,7 @@ import "./Formul.css";
 
 const Formul = () => {
   return (
-    <div className="all">
+    <div className="overflow-x-hidden all">
       <section className="contactos">
         <div className="card-form">
           <form
@@ -11,7 +11,7 @@ const Formul = () => {
             action="https://formspree.io/f/xvgpyvvb"
             method="POST"
           >
-            <div id="redirection-form" className="p-contact">
+            <div id="Contact" className="p-contact">
               <h1>¡Contáctame!</h1>
               <p>
                 Para consultar sobre mis servicios y recibir más información,

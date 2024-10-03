@@ -9,8 +9,8 @@ import mokup5 from "./img/edgar-pagjulio.png";
 
 const NewSection: React.FC = () => {
   return (
-    <div id="redirection1" className="new-section">
-      <section id="redirect1" className="container-aboutme">
+    <div id="redirection1" className="overflow-x-hidden new-section">
+      <section id="Aboutme" className="container-aboutme">
         <div className="texto-aboutme">
           <div className="description">
             <h2 className="title-about">Acerca de mí</h2>
@@ -66,21 +66,21 @@ const NewSection: React.FC = () => {
           </button>
           <button
             type="button"
-            className="btn btn-danger  btnhabiliti-1"
+            className="btn btn-danger btnhabiliti-1"
             data-mdb-ripple-init
           >
             CSS
           </button>
           <button
             type="button"
-            className="btn btn-warning  btnhabiliti-1"
+            className="btn btn-warning btnhabiliti-1"
             data-mdb-ripple-init
           >
             JavaScript
           </button>
           <button
             type="button"
-            className="btn btn-info  btnhabiliti-1"
+            className="btn btn-info btnhabiliti-1"
             data-mdb-ripple-init
           >
             React
@@ -88,7 +88,7 @@ const NewSection: React.FC = () => {
 
           <button
             type="button"
-            className="btn btn-bootst  btnhabiliti-1"
+            className="btn btn-bootst btnhabiliti-1"
             data-mdb-ripple-init
           >
             Bootstrap
@@ -96,21 +96,21 @@ const NewSection: React.FC = () => {
 
           <button
             type="button"
-            className="btn btn-nodes  btnhabiliti-1"
+            className="btn btn-nodes btnhabiliti-1"
             data-mdb-ripple-init
           >
             Nodes.js
           </button>
           <button
             type="button"
-            className="btn btn-nodes  btnhabiliti-1"
+            className="btn btn-nodes btnhabiliti-1"
             data-mdb-ripple-init
           >
             TypeScript
           </button>
           <button
             type="button"
-            className="btn btn-nodes  btnhabiliti-1"
+            className="btn btn-nodes btnhabiliti-1"
             data-mdb-ripple-init
           >
             tailwind css
@@ -148,7 +148,7 @@ const NewSection: React.FC = () => {
         </div>
       </section>
       <header className="header-heading">
-        <h1 id="redirection2" className="heading">
+        <h1 id="Developed-Projects" className="heading">
           Proyectos
         </h1>
         <p className="text-heading">
@@ -252,7 +252,7 @@ const NewSection: React.FC = () => {
         </a>
       </div>
       <header>
-        <h1 id="redirection3" className="head2">
+        <h1 id="Projects-Progress" className="head2">
           Proximos proyectos
         </h1>
       </header>

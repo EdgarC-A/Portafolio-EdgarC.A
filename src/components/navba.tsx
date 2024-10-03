@@ -4,14 +4,14 @@ import "./navba.css";
 
 function Mynavba() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="overflow-x-hidden navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img
             src={logo}
             alt="Logo"
             width="60"
-            className="d-inline-block align-text-top logo"
+            className="align-text-top d-inline-block logo"
           />
         </a>
         <button
@@ -35,7 +35,7 @@ function Mynavba() {
             >
               Home
             </a>
-            <a className="nav-link " href="#redirect1">
+            <a className="nav-link " href="#Aboutme">
               About me
             </a>
             <div className="dropdown">
@@ -49,33 +49,33 @@ function Mynavba() {
               </button>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="#redirection2">
+                  <a className="dropdown-item" href="#Developed-Projects">
                     Developed projects
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#redirection3">
+                  <a className="dropdown-item" href="#Projects-Progress">
                     Projects in Progress
                   </a>
                 </li>
                 <li>
                   <a
                     className="dropdown-item volantis"
-                    href="https://beige-kudu-377083.hostingersite.com/"
+                    href="http://lightsalmon-lyrebird-295224.hostingersite.com"
                     target="blank"
                   >
                     <img
                       src={volantis}
                       alt="Logo"
                       width="70"
-                      className="d-inline-block align-text-top logo"
+                      className="align-text-top d-inline-block logo"
                     />
                     Visit the business page
                   </a>
                 </li>
               </ul>
             </div>
-            <a className="nav-link" href="#redirection-form">
+            <a className="nav-link" href="#Contact">
               Contact
             </a>
           </div>

@@ -1,9 +1,8 @@
 .banner {
   background-color: #1d1d1d;
   padding: 50px 0;
-  text-align: center;
+
   margin-top: 200px;
-  width: 100%;
 }
 @media (max-width: 600px) {
   .banner {

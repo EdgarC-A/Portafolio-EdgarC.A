@@ -4,3 +4,17 @@
   width: 100%;
   z-index: 1;
 }
+/* Estilo para el navbar en modo oscuro */
+.dark .navbar {
+  background-color: #1f2937; /* Ejemplo de un color oscuro */
+  color: white;
+}
+
+/* Estilo para el navbar en modo claro */
+.navbar {
+  background-color: white; /* Color de fondo blanco en modo claro */
+  color: black;
+}
+.active {
+  color: #1bad40 !important;
+}
